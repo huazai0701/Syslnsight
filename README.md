@@ -1,29 +1,23 @@
-这个脚本在 Node.js 环境下运行，实现了以下功能：
+This script runs in a Node.js environment and accomplishes the following functions:
 
-1. getSystemInfo 函数获取系统的 CPU、内存、磁盘、运行时间、操作系统等信息。
+The getSystemInfo function fetches information about the system's CPU, memory, disk, uptime, operating system, etc.
 
-2. 多个性能测试函数，如 cpuPerformanceTest、memoryPerformanceTest、diskIOPerformanceTest、networkSpeedTest 模拟了 CPU、内存、磁盘和网络的性能测试。
+There are several performance testing functions, like cpuPerformanceTest, memoryPerformanceTest, diskIOPerformanceTest, and networkSpeedTest, which simulate the performance tests for CPU, memory, disk, and network respectively.
 
-3. 新增的功能模块函数，如 streamingServiceUnlockTest、ipQualityTest、returnRouteTest、portCheckTest 模拟了流媒体解锁检测、IP 质量检测、回程路由测试和端口检测。
+Newly added functional module functions, such as streamingServiceUnlockTest, ipQualityTest, returnRouteTest, and portCheckTest, simulate the detection of streaming service unlocking, IP quality inspection, return route testing, and port checking.
 
-4. 使用 async/await 处理异步操作，并统计了脚本的执行时间。
+It uses async/await to deal with asynchronous operations and also keeps statistics on the execution time of the script.
 
-请注意，在实际使用中，部分功能可能需要根据具体的运行环境和需求进行更深入的开发和调整。
+Please note that in practical usage, some functions might need more in-depth development and adjustment according to the specific running environment and requirements.
 
-这个 JavaScript 脚本是基于 Node.js 环境运行的，以下是使用它的具体步骤：
+This JavaScript script runs based on the Node.js environment. Here are the specific steps to use it:
 
-1. 确保安装了 Node.js：
-你可以从 Node.js 的官方网站（https://nodejs.org/）下载并安装适合你操作系统的 Node.js 版本。安装完成后，在命令行中输入 node -v ，如果能显示出版本号，说明安装成功。
+1. Make sure Node.js is installed: You can download and install the Node.js version suitable for your operating system from the official Node.js website (https://nodejs.org/). After installation, type node -v in the command line. If the version number is shown, it indicates that the installation is successful.
 
-2. 创建一个文件：
-打开你喜欢的文本编辑器（如 Visual Studio Code、Sublime Text 等），将上面提供的 JavaScript 代码复制粘贴到一个新文件中，然后将文件保存为 .js 后缀，比如 systemTest.js。
+2. Create a file: Open your favorite text editor (such as Visual Studio Code, Sublime Text, etc.). Copy and paste the provided JavaScript code into a new file, and then save the file with a .js suffix, for example, systemTest.js.
 
-3. 运行脚本：
-打开命令行终端（在 Windows 上是命令提示符或 PowerShell，在 macOS 和 Linux 上是终端）。
-使用 cd 命令进入到保存脚本文件的目录。例如，如果文件保存在 C:\scripts 目录下，在 Windows 的命令提示符中输入 cd C:\scripts ，然后按回车键。
-进入目录后，输入 node systemTest.js （这里的 systemTest.js 是你保存的文件名，要根据实际情况修改），然后按回车键。
+3. Run the script: Open the command line terminal (Command Prompt or PowerShell on Windows, and Terminal on macOS and Linux). Use the cd command to enter the directory where the script file is saved. For example, if the file is saved in the C:\scripts directory, in the Windows Command Prompt, type cd C:\scripts and press Enter. After entering the directory, type node systemTest.js (here systemTest.js is the file name you saved, which should be modified according to the actual situation), and then press Enter.
 
-4. 查看结果：
-脚本运行后，会在命令行中依次输出系统信息、各项模拟测试的结果以及脚本的执行总时间。你可以根据这些输出信息来了解模拟的测试情况。
+4. Check the results: After the script runs, it will successively output the system information, the results of each simulated test, and the total execution time of the script in the command line. You can understand the simulated test situations according to these output messages.
 
-希望这些步骤能帮助你顺利运行这个脚本。如果在运行过程中遇到任何问题，欢迎随时问我。
+Hope these steps can help you run this script smoothly. If you encounter any problems during the running process, feel free to ask me at any time.
